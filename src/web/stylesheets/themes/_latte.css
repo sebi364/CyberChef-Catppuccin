@@ -1,4 +1,5 @@
-:root {
+:root,
+:root.latte {
     /* Catppuccin Latte Colors */
     --rosewater: #dc8a78;
     --flamingo: #dd7878;
@@ -57,6 +58,124 @@
     --link-hover: var(--sapphire);
     --link-active: var(--sky);
     --link-visited: var(--mauve);
+
+    --primary-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+    --primary-font-colour: #4c4f69;
+    --primary-font-size: 14px;
+    --primary-line-height: 20px;
+
+    --fixed-width-font-family: SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+    --fixed-width-font-colour: inherit;
+    --fixed-width-font-size: inherit;
+
+    --subtext-font-colour: #6c6f85;
+    --subtext-font-size: 13px;
+
+    --primary-background-colour: #eff1f5;
+    --secondary-background-colour: #e6e9ef;
+
+    --primary-border-colour: #ccd0da;
+    --secondary-border-colour: #dce0e8;
+
+    --title-colour: #4c4f69;
+    --title-weight: bold;
+    --title-size: 16px;
+    --title-background-colour: #e6e9ef;
+
+    --banner-font-colour: #40a02b;
+    --banner-bg-colour: #a6e3a1;
+    --banner-url-colour: #1e66f5;
+
+    --category-list-font-colour: #1e66f5;
+
+    --loader-background-colour: var(--secondary-border-colour);
+    --loader-outer-colour: #1e66f5;
+    --loader-middle-colour: #d20f39;
+    --loader-inner-colour: #df8e1d;
+
+    /* Operation colours */
+    --op-list-operation-font-colour: #1e66f5;
+    --op-list-operation-bg-colour: #c6d0f5;
+    --op-list-operation-border-colour: #bcc0cc;
+
+    --rec-list-operation-font-colour: #40a02b;
+    --rec-list-operation-bg-colour: #a6e3a1;
+    --rec-list-operation-border-colour: #94e2d5;
+
+    --selected-operation-font-color: #df8e1d;
+    --selected-operation-bg-colour: #f9e2af;
+    --selected-operation-border-colour: #f5a97f;
+
+    --breakpoint-font-colour: #d20f39;
+    --breakpoint-bg-colour: #f38ba8;
+    --breakpoint-border-colour: #ea999c;
+
+    --disabled-font-colour: #6c6f85;
+    --disabled-bg-colour: #ccd0da;
+    --disabled-border-colour: #bcc0cc;
+
+    --fc-operation-font-colour: #40a02b;
+    --fc-operation-bg-colour: #a6e3a1;
+    --fc-operation-border-colour: #94e2d5;
+
+    --fc-breakpoint-operation-font-colour: #d20f39;
+    --fc-breakpoint-operation-bg-colour: #f38ba8;
+    --fc-breakpoint-operation-border-colour: #ea999c;
+
+    /* Operation arguments */
+    --op-title-font-weight: bold;
+    --arg-font-colour: #4c4f69;
+    --arg-background: #eff1f5;
+    --arg-border-colour: #ccd0da;
+    --arg-disabled-background: #e6e9ef;
+    --arg-label-colour: #40a02b;
+
+    /* Operation buttons */
+    --disable-icon-colour: #6c6f85;
+    --disable-icon-selected-colour: #d20f39;
+    --breakpoint-icon-colour: #6c6f85;
+    --breakpoint-icon-selected-colour: #d20f39;
+
+    /* Buttons */
+    --btn-default-font-colour: #4c4f69;
+    --btn-default-bg-colour: #eff1f5;
+    --btn-default-border-colour: #ccd0da;
+
+    --btn-default-hover-font-colour: #4c4f69;
+    --btn-default-hover-bg-colour: #e6e9ef;
+    --btn-default-hover-border-colour: #bcc0cc;
+
+    --btn-success-font-colour: #eff1f5;
+    --btn-success-bg-colour: #40a02b;
+    --btn-success-border-colour: #179299;
+
+    --btn-success-hover-font-colour: #eff1f5;
+    --btn-success-hover-bg-colour: #179299;
+    --btn-success-hover-border-colour: #04a5e5;
+
+    /* Highlighter colours */
+    --hl1: #df8e1daa;
+    --hl2: #04a5e5aa;
+    --hl3: #f38ba8aa;
+    --hl4: #f9e2afaa;
+    --hl5: #a6e3a1aa;
+
+    /* Scrollbar */
+    --scrollbar-track: var(--secondary-background-colour);
+    --scrollbar-thumb: #bcc0cc;
+    --scrollbar-hover: #acb0be;
+
+    /* Misc. */
+    --drop-file-border-colour: #1e66f5;
+    --table-border-colour: #bcc0cc;
+    --popover-background: #eff1f5;
+    --popover-border-colour: #bcc0cc;
+    --code-background: #e6e9ef;
+    --code-font-colour: #d20f39;
+    --input-highlight-colour: #1e66f5;
+    --input-border-colour: #4c4f69;
 }
 
 /* Dark mode overrides */

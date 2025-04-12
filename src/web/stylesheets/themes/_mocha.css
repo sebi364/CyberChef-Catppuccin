@@ -1,4 +1,5 @@
-:root {
+:root,
+:root.mocha {
     /* Catppuccin Mocha Colors */
     --rosewater: #f5e0dc;
     --flamingo: #f2cdcd;
@@ -57,6 +58,124 @@
     --link-hover: var(--sapphire);
     --link-active: var(--sky);
     --link-visited: var(--mauve);
+
+    --primary-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+    --primary-font-colour: #cdd6f4;
+    --primary-font-size: 14px;
+    --primary-line-height: 20px;
+
+    --fixed-width-font-family: SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+    --fixed-width-font-colour: inherit;
+    --fixed-width-font-size: inherit;
+
+    --subtext-font-colour: #a6adc8;
+    --subtext-font-size: 13px;
+
+    --primary-background-colour: #1e1e2e;
+    --secondary-background-colour: #181825;
+
+    --primary-border-colour: #313244;
+    --secondary-border-colour: #11111b;
+
+    --title-colour: #cdd6f4;
+    --title-weight: bold;
+    --title-size: 16px;
+    --title-background-colour: #181825;
+
+    --banner-font-colour: #a6e3a1;
+    --banner-bg-colour: #313244;
+    --banner-url-colour: #89b4fa;
+
+    --category-list-font-colour: #89b4fa;
+
+    --loader-background-colour: var(--secondary-border-colour);
+    --loader-outer-colour: #89b4fa;
+    --loader-middle-colour: #f38ba8;
+    --loader-inner-colour: #f9e2af;
+
+    /* Operation colours */
+    --op-list-operation-font-colour: #89b4fa;
+    --op-list-operation-bg-colour: #313244;
+    --op-list-operation-border-colour: #45475a;
+
+    --rec-list-operation-font-colour: #a6e3a1;
+    --rec-list-operation-bg-colour: #313244;
+    --rec-list-operation-border-colour: #94e2d5;
+
+    --selected-operation-font-color: #f9e2af;
+    --selected-operation-bg-colour: #313244;
+    --selected-operation-border-colour: #fab387;
+
+    --breakpoint-font-colour: #f38ba8;
+    --breakpoint-bg-colour: #313244;
+    --breakpoint-border-colour: #eba0ac;
+
+    --disabled-font-colour: #a6adc8;
+    --disabled-bg-colour: #313244;
+    --disabled-border-colour: #45475a;
+
+    --fc-operation-font-colour: #a6e3a1;
+    --fc-operation-bg-colour: #313244;
+    --fc-operation-border-colour: #94e2d5;
+
+    --fc-breakpoint-operation-font-colour: #f38ba8;
+    --fc-breakpoint-operation-bg-colour: #313244;
+    --fc-breakpoint-operation-border-colour: #eba0ac;
+
+    /* Operation arguments */
+    --op-title-font-weight: bold;
+    --arg-font-colour: #cdd6f4;
+    --arg-background: #1e1e2e;
+    --arg-border-colour: #313244;
+    --arg-disabled-background: #181825;
+    --arg-label-colour: #a6e3a1;
+
+    /* Operation buttons */
+    --disable-icon-colour: #a6adc8;
+    --disable-icon-selected-colour: #f38ba8;
+    --breakpoint-icon-colour: #a6adc8;
+    --breakpoint-icon-selected-colour: #f38ba8;
+
+    /* Buttons */
+    --btn-default-font-colour: #cdd6f4;
+    --btn-default-bg-colour: #1e1e2e;
+    --btn-default-border-colour: #313244;
+
+    --btn-default-hover-font-colour: #cdd6f4;
+    --btn-default-hover-bg-colour: #181825;
+    --btn-default-hover-border-colour: #45475a;
+
+    --btn-success-font-colour: #cdd6f4;
+    --btn-success-bg-colour: #a6e3a1;
+    --btn-success-border-colour: #94e2d5;
+
+    --btn-success-hover-font-colour: #cdd6f4;
+    --btn-success-hover-bg-colour: #94e2d5;
+    --btn-success-hover-border-colour: #89dceb;
+
+    /* Highlighter colours */
+    --hl1: #f9e2afaa;
+    --hl2: #89dcebaa;
+    --hl3: #f38ba8aa;
+    --hl4: #f9e2afaa;
+    --hl5: #a6e3a1aa;
+
+    /* Scrollbar */
+    --scrollbar-track: var(--secondary-background-colour);
+    --scrollbar-thumb: #45475a;
+    --scrollbar-hover: #585b70;
+
+    /* Misc. */
+    --drop-file-border-colour: #89b4fa;
+    --table-border-colour: #45475a;
+    --popover-background: #1e1e2e;
+    --popover-border-colour: #45475a;
+    --code-background: #181825;
+    --code-font-colour: #f38ba8;
+    --input-highlight-colour: #89b4fa;
+    --input-border-colour: #cdd6f4;
 }
 
 /* Dark mode overrides */
