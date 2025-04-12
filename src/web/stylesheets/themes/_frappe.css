@@ -1,0 +1,77 @@
+:root {
+    /* Catppuccin Frappé Colors */
+    --rosewater: #f2d5cf;
+    --flamingo: #eebebe;
+    --pink: #f4b8e4;
+    --mauve: #ca9ee6;
+    --red: #e78284;
+    --maroon: #ea999c;
+    --peach: #ef9f76;
+    --yellow: #e5c890;
+    --green: #a6d189;
+    --teal: #81c8be;
+    --sky: #99d1db;
+    --sapphire: #85c1dc;
+    --blue: #8caaee;
+    --lavender: #babbf1;
+    --text: #c6d0f5;
+    --subtext1: #b5bfe2;
+    --subtext0: #a5adce;
+    --overlay2: #949cbb;
+    --overlay1: #838ba7;
+    --overlay0: #737994;
+    --surface2: #626880;
+    --surface1: #51576d;
+    --surface0: #414559;
+    --base: #303446;
+    --mantle: #292c3c;
+    --crust: #232634;
+
+    /* Theme-specific variables */
+    --primary: var(--blue);
+    --secondary: var(--mauve);
+    --success: var(--green);
+    --danger: var(--red);
+    --warning: var(--yellow);
+    --info: var(--sky);
+    --background: var(--base);
+    --background-alt: var(--mantle);
+    --background-alt2: var(--crust);
+    --text-primary: var(--text);
+    --text-secondary: var(--subtext1);
+    --text-muted: var(--subtext0);
+    --border: var(--surface0);
+    --border-hover: var(--surface1);
+    --border-active: var(--surface2);
+    --selection: var(--surface2);
+    --selection-text: var(--text);
+    --focus: var(--blue);
+    --focus-text: var(--base);
+    --hover: var(--surface1);
+    --hover-text: var(--text);
+    --active: var(--surface2);
+    --active-text: var(--text);
+    --disabled: var(--surface0);
+    --disabled-text: var(--subtext0);
+    --link: var(--blue);
+    --link-hover: var(--sapphire);
+    --link-active: var(--sky);
+    --link-visited: var(--mauve);
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: var(--base);
+        --background-alt: var(--mantle);
+        --background-alt2: var(--crust);
+        --text-primary: var(--text);
+        --text-secondary: var(--subtext1);
+        --text-muted: var(--subtext0);
+        --border: var(--surface0);
+        --border-hover: var(--surface1);
+        --border-active: var(--surface2);
+        --selection: var(--surface2);
+        --selection-text: var(--text);
+    }
+} 

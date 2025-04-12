@@ -12,6 +12,10 @@
 @import "./themes/_geocities.css";
 @import "./themes/_solarizedDark.css";
 @import "./themes/_solarizedLight.css";
+@import "./themes/_latte.css";
+@import "./themes/_frappe.css";
+@import "./themes/_macchiato.css";
+@import "./themes/_mocha.css";
 
 /* Utilities */
 @import "./utils/_overrides.css";
